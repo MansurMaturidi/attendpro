@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATTEND PRO - Login</title>
+    <link rel="stylesheet" href="asset/css/style.css">
+    <style>
+        /* Form Container */
+        .form-container {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+            padding: 30px;
+            width: 400px;
+            margin: 140px auto 0;
+        }
+
+        .form-container h2 {
+            text-align: center;
+            color: #5A6F7A;
+        }
+
+        .form-container p {
+            text-align: center;
+            color: #7B8A92;
+            margin-bottom: 20px;
+        }
+
+        .form-container .btn-google {
+            width: 100%;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            font-weight: bold;
+            cursor: pointer;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+
+        .form-container .btn-google img {
+            height: 18px; /* Ukuran Logo Google diperbaiki */
+        }
+
+        .form-container input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        .form-container .btn-submit {
+            background-color: #5A9CF0;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .form-container .signup {
+            text-align: center;
+            margin-top: 15px;
+            font-size: 14px;
+        }
+
+        .form-container .signup a {
+            color: #5A9CF0;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .copyright {
+            margin-top: 20px;
+            color: #7B8A92;
+            font-size: 12px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="logo">
+            <img src="asset/img/logo.png" alt="Logo Attend Pro">
+            <span>ATTEND PRO</span>
+        </div>
+        <div class="menu">
+            <a href="#">Beranda</a>
+            <a href="#">Pengaturan</a>
+            <a href="#">Karyawan</a>
+        </div>
+        <div class="search-container">
+            <input type="text" placeholder="Pencarian">
+            <button>🔍</button>
+        </div>
+    </div>
+
+    <!-- Login Form -->
+    <div class="form-container">
+        <h2>Masuk</h2>
+        <p>Gunakan akun Anda untuk login atau masuk dengan Google</p>
+        <button class="btn-google">
+            <img src="asset/img/g.jpg" alt="Google Logo">
+            <a href="index.html">Masuk dengan Google</a>
+        </button>
+        <input type="text" placeholder="Email" required>
+        <input type="text" placeholder="Kata Sandi" required>
+        <button class="btn-submit"><a href="index.html" style="color: whitesmoke;">Masuk</a></button>
+        <div class="signup" >
+            Belum punya akun? <a href="register.html">Daftar</a>
+        </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="copyright">
+        Copyright © 2024 Attend Pro
+    </div>
+</body>
+</html>
